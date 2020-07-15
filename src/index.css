@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&family=Poppins:wght@500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Baloo Da 2', cursive;
+}
+nav .brand-logo {
+  display: block;
+  text-align: center;
+  position: relative;
+}
+.input-field label {
+  color: white;
+  font-family: 'Baloo Da 2', cursive;
+}
+
+.input-field input[type=text]:focus + label {
+  color: white;
+  font-family: 'Baloo Da 2', cursive;
+} 
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 #000;
+  font-family: 'Baloo Da 2', cursive;
+}
+
+input[type=text]:not(.browser-default) {
+  border-bottom: 1px solid white;
+  color: white;
+  font-family: 'Baloo Da 2', cursive;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid white;
+  -webkit-box-shadow: 0 1px 0 0 white;
+  box-shadow: 0 1px 0 0 white;
+  font-family: 'Baloo Da 2', cursive;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]) + label {
+  color: white;
+  font-family: 'Baloo Da 2', cursive;
+}
+
+span{
+  font-family: 'Baloo Da 2', cursive;
+}
+
+.contenedor-form {
+  padding: 3rem 0 1px 0;
+  background-color: #03a9f4;
+  font-family: 'Baloo Da 2', cursive;
+}
+.mensaje {
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Baloo Da 2', cursive;
+}
+.buscador i {
+  width: 100%;
+}
+.error {
+  padding: 1rem!important;
+  color:white;
+  margin-top: 3rem;
+  text-align: center;
+  text-emphasis: left;
+  font-family: 'Baloo Da 2', cursive;
+}
+.card-panel h2 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+.card-panel p {
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: 'Baloo Da 2', cursive;
+}
+.temperatura {
+  font-size: 4rem!important
+}
+.temperatura span {
+  font-size: 2rem!important;
+  vertical-align: super;
+  font-family: 'Baloo Da 2', cursive;
+}
+
+.btn-block {
+  display: block!important;
+}
+
+.error {
+  padding: 1rem!important;
+  text-align: center!important;
+  color: #FFF!important;
+  font-family: 'Baloo Da 2', cursive;
+}
+
+.anim-container {
+  height: 300px;
+  margin-bottom: 10px;
+  background-color:#5AD5FC;
+}
+
+.footer{
+  text-align: center;
+  color: #57a3a1;
+  background-image: none;
+  font-size: medium;
+  bottom: 0;
+  position: static;
+}
